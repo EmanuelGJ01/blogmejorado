@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: rgba(146, 170, 223, 0.805);
+}
+
+a, p{
+    color: currentColor;
+    font-size: 18px;
+}
+
+/*Header*/
+header{
+    padding: 10px;
+    width:100%;
+    background-color: rgba(81, 142, 188, 0.582);
+    
+}
+header img{
+width: 100px;
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+ul{
+    
+    display: flex;
+    gap: 50px;
+}
+
+main{
+    max-width: 1280px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+
+/* secttion bloh */
+
+.section__Flex{
+    padding: 120px 0px;
+    display: flex;
+    gap: 120px;
+}
+
+.section__Flex section{
+    width: 50%;
+
+}
+
+/* section__left */
+
+.section__left article{
+    width: 100%;
+}
+
+.section__left article picture{
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    display: block;
+    background-color: blue;
+}
+
+.section__left article picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+    color: white;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.434), rgba(0, 0, 0, 0.048));
+}
+
+.card__gradient--flex{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.card__footer{
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+
+/* section rigth */
+
+.section__rigth{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section__rigth article{
+    text-align: center;
+    width: 100%;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: rgb(230, 248, 255);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.254);
+}
+
+/*Footer*/
+footer{
+    background-color: rgba(81, 142, 188, 0.582);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.footer_ctn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+span{
+    width: 1px;
+    height: 150px;
+    background-color: white;
+}
